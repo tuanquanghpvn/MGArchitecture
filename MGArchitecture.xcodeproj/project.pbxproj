@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A1DC1898AD7CB0E88CEE3E4 /* libPods-MGArchitecture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5067BDE07108C686B4B0C4E /* libPods-MGArchitecture.a */; };
+		0D61D74421A4EA9C00966B3D /* PagingOriginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D74321A4EA9C00966B3D /* PagingOriginInfo.swift */; };
+		0D61D74621A4EB2500966B3D /* ViewModelType+LoadmoreWithoutOrderSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D74521A4EB2500966B3D /* ViewModelType+LoadmoreWithoutOrderSet.swift */; };
 		172823F32179791600380312 /* PagingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172823E72179791600380312 /* PagingInfo.swift */; };
 		172823F42179791600380312 /* HasID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172823E82179791600380312 /* HasID.swift */; };
 		172823F52179791600380312 /* UIViewController+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172823EA2179791600380312 /* UIViewController+Debug.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D61D74321A4EA9C00966B3D /* PagingOriginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingOriginInfo.swift; sourceTree = "<group>"; };
+		0D61D74521A4EB2500966B3D /* ViewModelType+LoadmoreWithoutOrderSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModelType+LoadmoreWithoutOrderSet.swift"; sourceTree = "<group>"; };
 		0DFA65B116780C8814A708B3 /* Pods-MGArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGArchitecture/Pods-MGArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		172823E72179791600380312 /* PagingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingInfo.swift; sourceTree = "<group>"; };
 		172823E82179791600380312 /* HasID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasID.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				172823E72179791600380312 /* PagingInfo.swift */,
+				0D61D74321A4EA9C00966B3D /* PagingOriginInfo.swift */,
 				172823E82179791600380312 /* HasID.swift */,
 			);
 			path = Model;
@@ -72,9 +77,10 @@
 			children = (
 				172823EC2179791600380312 /* BindableType.swift */,
 				172823ED2179791600380312 /* ErrorTracker.swift */,
-				172823EE2179791600380312 /* ViewModelType+Loadmore.swift */,
 				172823EF2179791600380312 /* ActivityIndicator.swift */,
 				172823F02179791600380312 /* ViewModelType.swift */,
+				172823EE2179791600380312 /* ViewModelType+Loadmore.swift */,
+				0D61D74521A4EB2500966B3D /* ViewModelType+LoadmoreWithoutOrderSet.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -239,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D61D74621A4EB2500966B3D /* ViewModelType+LoadmoreWithoutOrderSet.swift in Sources */,
 				172823F62179791600380312 /* BindableType.swift in Sources */,
 				172823F32179791600380312 /* PagingInfo.swift in Sources */,
 				172823F42179791600380312 /* HasID.swift in Sources */,
+				0D61D74421A4EA9C00966B3D /* PagingOriginInfo.swift in Sources */,
 				172823F82179791600380312 /* ViewModelType+Loadmore.swift in Sources */,
 				172823FA2179791600380312 /* ViewModelType.swift in Sources */,
 				172823F92179791600380312 /* ActivityIndicator.swift in Sources */,
